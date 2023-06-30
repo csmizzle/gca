@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gca"
+version = "0.1.0"
+description = ""
+authors = ["csmizzle <chrissmith700@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+gpt4all = "^0.3.4"
+guidance = "^0.0.64"
+transformers = "^4.30.2"
+torch = "^2.0.1"
+langchain = "^0.0.215"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
